@@ -33,4 +33,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="todayrecommend">今日推薦</string>
+    <string name="cake1">優格戚風蛋糕</string>
+    <string name="cake1info">份量:4人份\n分類:甜點\n難易度:★★(簡單)</string>
+    <string name="more">></string>
+    <string name="like">2000</string>
+    <string name="chinese">中式料理</string>
+
 </resources>
