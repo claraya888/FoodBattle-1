@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,17 +8,21 @@
     tools:layout_editor_absoluteY="81dp">
 
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical" >
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/cake1"
                 android:layout_width="match_parent"
-                android:layout_height="288dp"
+                android:layout_height="286dp"
                 app:srcCompat="@drawable/cake"
-                tools:ignore="ContentDescription" />
+                tools:ignore="ContentDescription"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -26,31 +30,30 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView6"
-                    android:layout_width="match_parent"
+                    android:id="@+id/cakename"
+                    android:layout_width="254dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/cake1"
-                    tools:ignore="ContentDescription"
-                    tools:layout_editor_absoluteX="2dp"
-                    tools:layout_editor_absoluteY="287dp" />
+                    tools:ignore="ContentDescription"/>
 
                 <ImageButton
-                    android:id="@+id/imageButton"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/like"
-                    tools:ignore="ContentDescription" />
-
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="match_parent"
+                    android:id="@+id/like"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
                     android:layout_weight="1"
-                    android:text="@string/like"
-                    tools:ignore="ContentDescription" />
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/like"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:id="@+id/likeamount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:text="@string/like" />
             </LinearLayout>
 
             <LinearLayout
@@ -59,52 +62,77 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="70dp"
+                    android:id="@+id/name"
+                    android:layout_width="361dp"
+                    android:layout_height="80dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/name"
                     tools:ignore="ContentDescription"/>
 
                 <Button
-                    android:id="@+id/button2"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/follow"
+                    android:layout_width="221dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:background="#e0b4da81"
-                    android:text="@string/follow"
-                    tools:ignore="ContentDescription" />
+                    android:background="#e2a5ca77"
+                    android:text="@string/follow" />
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:srcCompat="@drawable/cake1-1"
-                tools:ignore="ContentDescription" />
-
-            <Button
-                android:id="@+id/button3"
+                android:id="@+id/cake1_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                app:srcCompat="@drawable/cake1_1"
+                tools:ignore="ContentDescription"/>
 
-            <Button
-                android:id="@+id/button4"
+            <ImageView
+                android:id="@+id/cake1_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                app:srcCompat="@drawable/cake1_2"
+                tools:ignore="ContentDescription"/>
 
-            <Button
-                android:id="@+id/button5"
+            <ImageView
+                android:id="@+id/cake1_3"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                app:srcCompat="@drawable/cake1_3"
+                tools:ignore="ContentDescription"/>
+
+            <ImageView
+                android:id="@+id/cake1_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                app:srcCompat="@drawable/cake1_4"
+                tools:ignore="ContentDescription"/>
+
+            <ImageView
+                android:id="@+id/cake1_5"
+                android:layout_width="match_parent"
+                android:layout_height="986dp"
+                app:srcCompat="@drawable/cake1_5"
+                tools:ignore="ContentDescription"/>
+
+            <ImageView
+                android:id="@+id/cake1_6"
+                android:layout_width="match_parent"
+                android:layout_height="229dp"
+                app:srcCompat="@drawable/cake1_6"
+                tools:ignore="ContentDescription"/>
+
+            <ImageView
+                android:id="@+id/cake1_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cake1_7"
+                tools:ignore="ContentDescription"/>
 
         </LinearLayout>
+    </ScrollView>
 
-
-
-</ScrollView>
+</android.support.constraint.ConstraintLayout>
