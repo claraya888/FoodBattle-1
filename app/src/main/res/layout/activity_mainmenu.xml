@@ -75,7 +75,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:text="@string/more"
-                android:textColor="?android:attr/tooltipBackgroundColor"
+                android:textColor="@android:color/darker_gray"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -183,7 +183,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:text="@string/more"
-                android:textColor="?android:attr/tooltipBackgroundColor"
+                android:textColor="@android:color/darker_gray"
                 android:textSize="18sp" />
         </TableRow>
 
