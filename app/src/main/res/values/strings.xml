@@ -40,5 +40,9 @@
     <string name="like">2000</string>
     <string name="chinese">中式料理</string>
     <string name="follow">追蹤</string>
+    <string name="heart">♥</string>
+    <string name="space">     </string>
+    <string name="italy">義式料理</string>
+    <string name="desert">各式甜點</string>
 
 </resources>
