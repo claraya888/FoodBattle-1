@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/back"
-    tools:context=".mainmenu">
+    android:layout_height="wrap_content"
+    tools:context=".MenuActivity"
+    android:background="@drawable/back">
 
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/main_nav"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:itemBackground="@color/orangePink"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        app:menu="@menu/nav_items" />
+
+
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_nav"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="454dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -200,7 +221,7 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         app:srcCompat="@drawable/chinese"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
 
                     <ImageButton
                         android:id="@+id/imagechinesse2"
@@ -212,7 +233,7 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         app:srcCompat="@drawable/chinese2"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
 
                     <ImageButton
                         android:id="@+id/imagechinesse3"
@@ -224,7 +245,7 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         app:srcCompat="@drawable/chinese3"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -278,7 +299,7 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         app:srcCompat="@drawable/spe"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
 
                     <ImageButton
                         android:id="@+id/imageItaly2"
@@ -290,7 +311,7 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         app:srcCompat="@drawable/meatball"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
 
                     <ImageButton
                         android:id="@+id/imageItaly3"
@@ -302,11 +323,10 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         app:srcCompat="@drawable/chicken"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
                 </LinearLayout>
 
             </LinearLayout>
-
 
 
             <LinearLayout
@@ -358,7 +378,7 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         app:srcCompat="@drawable/cake2"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
 
                     <ImageButton
                         android:id="@+id/imagedesert2"
@@ -370,7 +390,7 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         app:srcCompat="@drawable/desert"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
 
                     <ImageButton
                         android:id="@+id/imagedesert3"
@@ -382,7 +402,7 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         app:srcCompat="@drawable/cake3"
-                        tools:ignore="ContentDescription"/>
+                        tools:ignore="ContentDescription" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -391,4 +411,4 @@
         </LinearLayout>
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

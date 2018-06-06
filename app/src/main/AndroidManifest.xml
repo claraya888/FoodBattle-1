@@ -12,16 +12,16 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MenuActivity" />
-        <activity android:name=".mainmenu" />
+        <activity android:name=".mainmenu" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".menuview">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+    </activity>
+        <activity android:name=".menuview" />
 
-        </activity>
     </application>
 
 </manifest>

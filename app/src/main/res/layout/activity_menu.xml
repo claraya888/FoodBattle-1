@@ -19,6 +19,8 @@
 
         app:menu="@menu/nav_items" />
 
+
+
     <FrameLayout
         android:id="@+id/main_fragment"
         android:layout_width="match_parent"
@@ -26,7 +28,8 @@
         android:layout_above="@+id/main_nav"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true">
-
     </FrameLayout>
+
+
 
 </RelativeLayout>
