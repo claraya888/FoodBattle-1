@@ -44,5 +44,6 @@
     <string name="space">     </string>
     <string name="italy">義式料理</string>
     <string name="desert">各式甜點</string>
+    <string name="back">◄</string>
 
 </resources>
