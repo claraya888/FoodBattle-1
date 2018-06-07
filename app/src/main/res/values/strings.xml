@@ -54,7 +54,8 @@
     <string name="cake2">檸檬戚風蛋糕</string>
     <string name="chicken">迷迭香煎雞排</string>
     <string name="icecream">香蕉派冰淇淋</string>
-
+    <string name="buyers">50</string>
+    <string name="buy">跟團</string>
 
 
 </resources>
