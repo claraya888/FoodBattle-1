@@ -36,6 +36,9 @@
     <string name="todayrecommend">今日推薦</string>
     <string name="cake1">優格戚風蛋糕</string>
     <string name="cake1info">份量:4人份\n分類:甜點\n難易度:★★(簡單)</string>
+    <string name="cake1info2">份量:2人份\n分類:甜點\n難易度:★★★(普通)</string>
+    <string name="cake1info3">份量:2人份\n分類:義式\n難易度:★★★★(偏難)</string>
+    <string name="cake1info4">份量:1人份\n分類:甜點\n難易度:★★(簡單)</string>
     <string name="more">></string>
     <string name="like">2000</string>
     <string name="chinese">中式料理</string>
@@ -45,5 +48,13 @@
     <string name="italy">義式料理</string>
     <string name="desert">各式甜點</string>
     <string name="back">◄</string>
+    <string name="styledish">料理風格/拿手菜</string>
+    <string name="post">我發表的菜單</string>
+    <string name="collect">我收藏的菜單</string>
+    <string name="cake2">檸檬戚風蛋糕</string>
+    <string name="chicken">迷迭香煎雞排</string>
+    <string name="icecream">香蕉派冰淇淋</string>
+
+
 
 </resources>
